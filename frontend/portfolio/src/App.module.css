@@ -1,0 +1,16 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background);
+  color: var(--main-text);
+  min-height: 100vh;
+}
+
+.mainContent {
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 0 var(--side-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
