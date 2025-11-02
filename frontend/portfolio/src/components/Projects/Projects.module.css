@@ -1,11 +1,25 @@
-.projects {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+.projectsSection {
+  background-color: transparent;
+  padding: 3rem 2rem;
+  border-radius: 20px;
 }
 
-.projectGrid {
+.title {
+  text-align: center;
+  font-size: 2rem; 
+  margin-bottom: 2rem; 
+  color: var(--accent);
+  
+}
+
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; 
+  }
 }

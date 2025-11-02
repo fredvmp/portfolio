@@ -23,6 +23,10 @@ import javascriptIcon from "../../../src/assets/icons/javascript-original.svg";
 import nodejsIcon from "../../../src/assets/icons/nodejs-original.svg";
 import androidstudioIcon from "../../../src/assets/icons/androidstudio-original.svg";
 import kotlinIcon from "../../../src/assets/icons/kotlin-original.svg";
+import mavenIcon from "../../../src/assets/icons/maven-original.svg";
+import junitIcon from "../../../src/assets/icons/junit-original.svg";
+
+
 
 
 
@@ -66,11 +70,14 @@ const Skills: React.FC = () => {
       skills: [
         { name: "Git", icon: gitIcon },
         { name: "GitHub", icon: githubIcon },
+        { name: "Maven", icon: mavenIcon },
         { name: "VS Code", icon: vscodeIcon },
         { name: "IntelliJ IDEA", icon: intellijIcon },
-        { name: "Jira", icon: jiraIcon },
         { name: "Android Studio", icon: androidstudioIcon },
+        { name: "Jira", icon: jiraIcon },
+        { name: "JUnit", icon: junitIcon },
 
+        
       ],
     },
   ];

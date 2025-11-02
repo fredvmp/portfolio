@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         {/* Información personal */}
         <h1>Alfredo Tortuero</h1>
         <h2>Desarrollador Full Stack Junior</h2>
-        <p>Apasionado por las BBDD pensar más texto.</p>
+        <p>Amante de las bases de datos y apasionado por crear soluciones simples y eficientes</p>
 
         {/* Botones */}
         <div className={styles.buttonsContainer}>

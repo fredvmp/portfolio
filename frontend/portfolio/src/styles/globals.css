@@ -1,3 +1,4 @@
+@import "./variables.css";
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600;700&display=swap");
 
 * {
@@ -22,8 +23,4 @@ a {
   color: var(--accent);
   text-decoration: none;
   transition: color 0.3s ease;
-}
-
-a:hover {
-  color: var(--primary);
 }

@@ -3,6 +3,7 @@ import styles from "./App.module.css";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Hero /> 
         <About />
         <Skills />
+        <Projects />
 
       </main>
     </div>
