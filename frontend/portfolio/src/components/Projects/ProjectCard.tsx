@@ -1,7 +1,21 @@
 import { useState } from "react";
 import styles from "./ProjectCard.module.css";
 import githubIcon from "../../assets/icons/github-original.svg";
+import reactIcon from "../../assets/icons/react-original.svg";
+import typescriptIcon from "../../assets/icons/typescript-original.svg";
+import css3Icon from "../../assets/icons/css3-original.svg";
+import javaIcon from "../../assets/icons/java-original.svg";
+import springIcon from "../../assets/icons/spring-original.svg";
+import postgresqlIcon from "../../assets/icons/postgresql-original.svg";
 
+const techIcons: Record<string, string> = {
+  react: reactIcon,
+  typescript: typescriptIcon,
+  css3: css3Icon,
+  java: javaIcon,
+  spring: springIcon,
+  postgresql: postgresqlIcon,
+};
 
 interface ProjectProps {
   title: string;
@@ -62,7 +76,7 @@ function ProjectCard({
           {techs.map((tech) => (
             <img
               key={tech}
-              src={`../../../src/assets/icons/${tech}-original.svg`}
+              src={techIcons[tech]}
               alt={tech}
               title={tech}
               className={styles.techIcon}
@@ -72,21 +86,13 @@ function ProjectCard({
 
         <div className={styles.buttons}>
           {github && (
-            <a
-              href={github}
-              target="_blank"
-              className={styles.githubBtn}
-            >
+            <a href={github} target="_blank" className={styles.githubBtn}>
               <img src={githubIcon} alt="GitHub" className={styles.icon} />
               GitHub
             </a>
           )}
           {demo && (
-            <a
-              href={demo}
-              target="_blank"
-              className={styles.demoBtn}
-            >
+            <a href={demo} target="_blank" className={styles.demoBtn}>
               Probar ➚
             </a>
           )}
