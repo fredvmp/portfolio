@@ -1,5 +1,7 @@
 import { useState } from "react";
 import styles from "./ProjectCard.module.css";
+import githubIcon from "../../assets/icons/github-original.svg";
+
 
 interface ProjectProps {
   title: string;
@@ -75,6 +77,7 @@ function ProjectCard({
               target="_blank"
               className={styles.githubBtn}
             >
+              <img src={githubIcon} alt="GitHub" className={styles.icon} />
               GitHub
             </a>
           )}

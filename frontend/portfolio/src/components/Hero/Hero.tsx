@@ -2,6 +2,9 @@ import React from "react";
 import profile from "../../assets/profile.png";
 import styles from "./Hero.module.css";
 import cvFile from "../../assets/ALFREDO TORTUERO CV.pdf";
+import linkedinIcon from "../../../src/assets/icons/linkedin-original.svg";
+import githubIcon from "../../../src/assets/icons/github-original.svg";
+
 
 const Hero: React.FC = () => {
   return (
@@ -21,6 +24,7 @@ const Hero: React.FC = () => {
             target="_blank"
             className={`${styles.button} ${styles.socialBtn}`}
           >
+            <img src={linkedinIcon} alt="LinkedIn" className={styles.icon} />
             LinkedIn
           </a>
 
@@ -29,6 +33,7 @@ const Hero: React.FC = () => {
             target="_blank"
             className={`${styles.button} ${styles.socialBtn}`}
           >
+            <img src={githubIcon} alt="GitHub" className={styles.icon} />
             GitHub
           </a>
 
