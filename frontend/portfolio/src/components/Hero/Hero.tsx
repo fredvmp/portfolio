@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "../../assets/profile.png";
 import styles from "./Hero.module.css";
-import cvFile from "../../assets/ALFREDO_TORTUERO_CV.pdf";
+import cvFile from "../../assets/ALFREDO TORTUERO CV.pdf";
 import linkedinIcon from "../../../src/assets/icons/linkedin-original.svg";
 import githubIcon from "../../../src/assets/icons/github-original.svg";
 
