@@ -13,12 +13,11 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({ title, skills }) => {
       <h3>{title}</h3>
       <div className={styles.categoryGrid}>
         {skills.map((skill) => (
-          <SkillItem key={skill.name} name={skill.name} icon={skill.icon} /> 
+          <SkillItem key={skill.name} name={skill.name} icon={skill.icon} />
         ))}
       </div>
     </div>
   );
 };
-
 
 export default SkillCategory;

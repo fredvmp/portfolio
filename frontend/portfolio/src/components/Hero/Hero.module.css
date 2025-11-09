@@ -5,6 +5,8 @@
   text-align: center;
   gap: 1.5rem;
   padding-top: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .photo {
@@ -16,11 +18,21 @@
   box-shadow: 0 0 20px rgba(191, 167, 90, 0.3);
 }
 
+.hero h1,
+.hero h2,
+.hero p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
 .buttonsContainer {
   display: flex;
   justify-content: center;
   gap: 1rem;
   margin-top: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .button {
@@ -66,4 +78,69 @@
   margin-right: 0.6rem;
   vertical-align: middle;
   transition: transform 0.3s ease;
+}
+
+/* RESPONSIVE !!!!!!!!!!!!!!!!!! */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    gap: 1.2rem;
+  }
+
+  .photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+
+  .buttonsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .button {
+    flex: 1 1 calc(50% - 1rem);
+    min-width: 130px;
+  }
+
+  .cvBtn {
+    flex-basis: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .button {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.4rem;
+  }
 }

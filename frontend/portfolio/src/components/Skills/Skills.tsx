@@ -26,11 +26,6 @@ import kotlinIcon from "../../../src/assets/icons/kotlin-original.svg";
 import mavenIcon from "../../../src/assets/icons/maven-original.svg";
 import junitIcon from "../../../src/assets/icons/junit-original.svg";
 
-
-
-
-
-
 import SkillCategory from "./SkillCategory";
 
 const Skills: React.FC = () => {
@@ -76,8 +71,6 @@ const Skills: React.FC = () => {
         { name: "Android Studio", icon: androidstudioIcon },
         { name: "Jira", icon: jiraIcon },
         { name: "JUnit", icon: junitIcon },
-
-        
       ],
     },
   ];
@@ -87,7 +80,11 @@ const Skills: React.FC = () => {
       <h2 className={styles.title}>Tecnologías</h2>
       <div className={styles.grid}>
         {skillCategories.map((cat) => (
-          <SkillCategory key={cat.title} title={cat.title} skills={cat.skills} />
+          <SkillCategory
+            key={cat.title}
+            title={cat.title}
+            skills={cat.skills}
+          />
         ))}
       </div>
     </section>
