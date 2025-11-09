@@ -1,13 +1,14 @@
 .projectsSection {
   background-color: transparent;
-  padding: 3rem 2rem;
   border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .title {
   text-align: center;
   font-size: 2rem; 
-  margin-bottom: 2rem; 
+  margin-bottom: 1rem; 
   color: var(--accent);
   
 }
@@ -15,7 +16,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 @media (max-width: 768px) {

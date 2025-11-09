@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   transition: box-shadow 0.4s ease;
+  border: none;
 }
 
 .projectCard:hover {
@@ -25,11 +26,12 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  height: 250px;
 }
 
 .mainImage {
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
   transition: opacity 0.4s ease, transform 0.4s ease;
@@ -42,11 +44,12 @@
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.6rem;
+  padding: 1rem;
 }
 
 .miniature {
-  width: 55px;
+  width: 60px;
   height: 40px;
   object-fit: cover;
   border-radius: 6px;
@@ -101,7 +104,7 @@ p {
 .techIcons {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.6rem;
   margin-top: 0.5rem;
 }
 
@@ -167,22 +170,66 @@ p {
   color: var(--accent);
 }
 
+/* RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 @media (max-width: 768px) {
+  .imageArea {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainImageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
   .mainImage {
-    height: 180px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
   }
 
   .miniatureColumn {
-    flex-direction: row;
     position: static;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-top: 0.5rem;
-    transform: none;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 1rem;
+  }
+
+  .miniatureColumn::-webkit-scrollbar {
+    display: none;
   }
 
   .miniature {
-    width: 60px;
-    height: 45px;
+    flex-shrink: 0;
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 6px;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .miniature:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  .activeMiniature {
+    opacity: 1;
+    border: 1px solid var(--accent);
+    box-shadow: 0 0 8px var(--accent);
   }
 
   .info {
@@ -191,8 +238,6 @@ p {
 
   .buttons {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
   }
 }
-
-
