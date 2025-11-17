@@ -7,6 +7,7 @@ import library01 from "../../assets/images/hallowed_library_01.png";
 import library02 from "../../assets/images/hallowed_library_02.png";
 import library03 from "../../assets/images/hallowed_library_03.png";
 import library04 from "../../assets/images/hallowed_library_04.png";
+import library05 from "../../assets/images/hallowed_library_05.png";
 
 function Projects() {
   const projects = [
@@ -15,7 +16,7 @@ function Projects() {
       description:
         "Aplicación web Full Stack para la gestión y descubrimiento de libros, inspirada en Goodreads. Permitirá a los usuarios registrarse, valorar y reseñar lecturas, crear listas personalizadas y recibir recomendaciones. Implementa autenticación JWT y arquitectura REST.",
       type: "Full Stack",
-      images: [library01, library02, library03, library04],
+      images: [library02, library03, library04, library05],
       techs: ["react", "typescript", "css3", "spring", "java", "postgresql"],
       github: "https://github.com/fredvmp/hallowed-library",
       demo: "",
