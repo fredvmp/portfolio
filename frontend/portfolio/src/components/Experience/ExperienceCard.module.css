@@ -1,0 +1,73 @@
+.card {
+  background-color: var(--panel-bg);
+  border-radius: 15px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: box-shadow 0.4s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(44, 94, 74, 0.4);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.role {
+  color: var(--accent);
+  font-size: 1.3rem;
+  font-weight: var(--font-bold);
+}
+
+.company {
+  color: var(--main-text);
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.period {
+  color: var(--main-text);
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-top: 0.3rem;
+}
+
+.taskList {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task {
+  position: relative;
+  padding-left: 1.2rem;
+  color: var(--main-text);
+  font-weight: var(--font-light);
+}
+
+.task::before {
+  content: "•";
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+/* RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media (max-width: 768px) {
+  .card {
+    padding: 1.3rem;
+  }
+
+  .role {
+    font-size: 1.15rem;
+  }
+}

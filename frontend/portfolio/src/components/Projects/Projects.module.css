@@ -2,7 +2,6 @@
   background-color: transparent;
   border-radius: 20px;
   margin-top: 1rem;
-  margin-bottom: 3rem;
 }
 
 .title {
@@ -10,7 +9,6 @@
   font-size: 2rem; 
   margin-bottom: 1rem; 
   color: var(--accent);
-  
 }
 
 .grid {
