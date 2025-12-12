@@ -6,12 +6,11 @@ function Experience() {
     {
       role: "Desarrollador Full Stack",
       company: "Servinnova",
-      period: "Mar 2024 – Ene 2025",
+      period: "Mar 2024 – Jun 2024",
       tasks: [
         "Desarrollo de módulos web tanto en frontend como en backend, utilizando principalmente Python y JavaScript.",
         "Mejoras de rendimiento y refactorización de código para facilitar el mantenimiento.",
-        "Optimización de procesos internos y en la documentación técnica de los proyectos.",
-        "Soporte y adaptación de funcionalidades según los requerimientos del cliente.",
+        "Documentación técnica de los proyectos.",
         "Traducción de aplicaciones a otros idiomas.",
       ],
     },
