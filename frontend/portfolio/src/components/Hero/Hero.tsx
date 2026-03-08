@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
 
         {/* Información personal */}
         <h1>Alfredo Tortuero</h1>
-        <h2>Desarrollador Full Stack Junior</h2>
+        <h2>Desarrollador Full Stack</h2>
         <p>Amante de las bases de datos y apasionado por crear soluciones simples y eficientes</p>
 
         {/* Botones */}

@@ -7,6 +7,9 @@ import css3Icon from "../../assets/icons/css3-original.svg";
 import javaIcon from "../../assets/icons/java-original.svg";
 import springIcon from "../../assets/icons/spring-original.svg";
 import postgresqlIcon from "../../assets/icons/postgresql-original.svg";
+import pythonIcon from "../../assets/icons/python-original.svg";
+import pytestIcon from "../../assets/icons/pytest-original.svg";
+import flaskIcon from "../../assets/icons/flask-original.svg";
 
 const techIcons: Record<string, string> = {
   react: reactIcon,
@@ -15,6 +18,9 @@ const techIcons: Record<string, string> = {
   java: javaIcon,
   spring: springIcon,
   postgresql: postgresqlIcon,
+  python: pythonIcon,
+  pytest: pytestIcon,
+  flask: flaskIcon,
 };
 
 interface ProjectProps {

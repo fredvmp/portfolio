@@ -8,11 +8,29 @@ import library02 from "../../assets/images/hallowed_library_02.png";
 import library03 from "../../assets/images/hallowed_library_03.png";
 import library04 from "../../assets/images/hallowed_library_04.png";
 import library05 from "../../assets/images/hallowed_library_05.png";
+import lib_back01 from "../../assets/images/lib_back_01.png";
+import lib_back02 from "../../assets/images/lib_back_02.png";
+import lib_back03 from "../../assets/images/lib_back_03.png";
+import lib_back04 from "../../assets/images/lib_back_04.png";
+
 
 function Projects() {
   const projects = [
     {
-      title: "Hallowed Library (en desarrollo)",
+      title: "Library Backend API",
+      description:
+        "API REST desarrollada en Python para gestionar y analizar libros leídos. Permite consultar diferentes estadísticas de lectura (por ejemplo entre un rango de fechas) y devuelve información estructurada sobre títulos, autores, géneros...\n El proyecto está organizado en capas (routes, services y acceso a datos) e incluye testing automatizado con Pytest, validación de parámetros, logging y medición de cobertura para garantizar la fiabilidad del backend.",
+
+      type: "Backend",
+      images: [lib_back01, lib_back02, lib_back03, lib_back04],
+      techs: ["flask", "python", "pytest", "postgresql"],
+      github: "https://github.com/fredvmp/backend-library",
+      demo: "",
+    },
+
+
+      {
+      title: "Hallowed Library",
       description:
         "Aplicación web Full Stack para la gestión y descubrimiento de libros, inspirada en Goodreads. Permitirá a los usuarios registrarse, valorar y reseñar lecturas, crear listas personalizadas y recibir recomendaciones. Implementa autenticación JWT y arquitectura REST.",
       type: "Full Stack",
@@ -21,6 +39,8 @@ function Projects() {
       github: "https://github.com/fredvmp/hallowed-library",
       demo: "",
     },
+
+
     {
       title: "Ancient Chess",
       description:
