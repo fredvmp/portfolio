@@ -17,7 +17,6 @@ import css3Icon from "../../../src/assets/icons/css3-original.svg";
 import postgresqlIcon from "../../../src/assets/icons/postgresql-original.svg";
 import oracleIcon from "../../../src/assets/icons/oracle-original.svg";
 import vscodeIcon from "../../../src/assets/icons/vscode-original.svg";
-import intellijIcon from "../../../src/assets/icons/intellij-original.svg";
 import jiraIcon from "../../../src/assets/icons/jira-original.svg";
 import javascriptIcon from "../../../src/assets/icons/javascript-original.svg";
 import nodejsIcon from "../../../src/assets/icons/nodejs-original.svg";
