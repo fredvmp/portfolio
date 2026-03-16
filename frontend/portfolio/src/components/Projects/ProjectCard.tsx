@@ -10,6 +10,7 @@ import postgresqlIcon from "../../assets/icons/postgresql-original.svg";
 import pythonIcon from "../../assets/icons/python-original.svg";
 import pytestIcon from "../../assets/icons/pytest-original.svg";
 import flaskIcon from "../../assets/icons/flask-original.svg";
+import pandasIcon from "../../assets/icons/pandas-original.svg";
 
 const techIcons: Record<string, string> = {
   react: reactIcon,
@@ -21,6 +22,7 @@ const techIcons: Record<string, string> = {
   python: pythonIcon,
   pytest: pytestIcon,
   flask: flaskIcon,
+  pandas: pandasIcon
 };
 
 interface ProjectProps {

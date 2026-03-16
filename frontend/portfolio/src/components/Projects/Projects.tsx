@@ -19,11 +19,11 @@ function Projects() {
     {
       title: "Library Backend API",
       description:
-        "API REST desarrollada en Python para gestionar y analizar libros leídos. Permite consultar diferentes estadísticas de lectura (por ejemplo entre un rango de fechas) y devuelve información estructurada sobre títulos, autores, géneros...\n El proyecto está organizado en capas (routes, services y acceso a datos) e incluye testing automatizado con Pytest, validación de parámetros, logging y medición de cobertura para garantizar la fiabilidad del backend.",
-
+      "API REST especializada en el procesamiento de estadísticas de lectura mediante el uso de Pandas. El proyecto implementa una estructura limpia (Routes, Services, Data Access) que facilita la mantenibilidad y el escalado hacia Big Data. Se enfoca en la calidad del dato, utilizando validación avanzada, gestión de errores, testing automatizado con Pytest y transformando bases de datos relacionales en insights estructurados y accionables.",
+      
       type: "Backend",
       images: [lib_back01, lib_back02, lib_back03, lib_back04],
-      techs: ["flask", "python", "pytest", "postgresql"],
+      techs: ["flask", "python", "pandas", "pytest", "postgresql"],
       github: "https://github.com/fredvmp/backend-library",
       demo: "",
     },
@@ -32,7 +32,7 @@ function Projects() {
       {
       title: "Hallowed Library",
       description:
-        "Aplicación web Full Stack para la gestión y descubrimiento de libros, inspirada en Goodreads. Permitirá a los usuarios registrarse, valorar y reseñar lecturas, crear listas personalizadas y recibir recomendaciones. Implementa autenticación JWT y arquitectura REST.",
+        "Aplicación web Full Stack para la gestión y descubrimiento de libros, inspirada en Goodreads. Permite a los usuarios registrarse, valorar y reseñar lecturas, crear listas personalizadas y recibir recomendaciones. Implementa autenticación JWT y arquitectura REST.",
       type: "Full Stack",
       images: [library01, library02, library03, library04, library05],
       techs: ["react", "typescript", "css3", "spring", "java", "postgresql"],

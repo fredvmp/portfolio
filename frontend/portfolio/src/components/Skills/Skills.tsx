@@ -25,7 +25,7 @@ import kotlinIcon from "../../../src/assets/icons/kotlin-original.svg";
 import mavenIcon from "../../../src/assets/icons/maven-original.svg";
 import junitIcon from "../../../src/assets/icons/junit-original.svg";
 import pytestIcon from "../../../src/assets/icons/pytest-original.svg";
-
+import pandasIcon from "../../../src/assets/icons/pandas-original.svg";
 
 import SkillCategory from "./SkillCategory";
 
@@ -43,13 +43,14 @@ const Skills: React.FC = () => {
     {
       title: "Backend",
       skills: [
-        { name: "Java", icon: javaIcon },
-        { name: "Spring", icon: springIcon },
         { name: "Python", icon: pythonIcon },
         { name: "Flask", icon: flaskIcon },
+        { name: "Pandas", icon: pandasIcon },
+        { name: "Kotlin", icon: kotlinIcon },
+        { name: "Java", icon: javaIcon },
+        { name: "Spring", icon: springIcon },
         { name: "JavaScript", icon: javascriptIcon },
         { name: "Node.js", icon: nodejsIcon },
-        { name: "Kotlin", icon: kotlinIcon },
       ],
     },
     {
@@ -64,14 +65,19 @@ const Skills: React.FC = () => {
     {
       title: "Herramientas",
       skills: [
+        { name: "Pytest", icon: pytestIcon },
+        { name: "JUnit", icon: junitIcon },
+
+
+
         { name: "Git", icon: gitIcon },
         { name: "GitHub", icon: githubIcon },
         { name: "Maven", icon: mavenIcon },
         { name: "VS Code", icon: vscodeIcon },
         { name: "Android Studio", icon: androidstudioIcon },
         { name: "Jira", icon: jiraIcon },
-        { name: "JUnit", icon: junitIcon },
-        { name: "Pytest", icon: pytestIcon },
+        
+        
 
       ],
     },
