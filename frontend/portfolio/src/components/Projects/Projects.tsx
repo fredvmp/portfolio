@@ -12,17 +12,18 @@ import lib_back01 from "../../assets/images/lib_back_01.png";
 import lib_back02 from "../../assets/images/lib_back_02.png";
 import lib_back03 from "../../assets/images/lib_back_03.png";
 import lib_back04 from "../../assets/images/lib_back_04.png";
+import lib_back05 from "../../assets/images/lib_back_05.png";
 
 
 function Projects() {
   const projects = [
     {
-      title: "Library Backend API",
+      title: "Reader-Insights",
       description:
-      "API REST especializada en el procesamiento de estadísticas de lectura mediante el uso de Pandas. El proyecto implementa una estructura limpia (Routes, Services, Data Access) que facilita la mantenibilidad y el escalado hacia Big Data. Se enfoca en la calidad del dato, utilizando validación avanzada, gestión de errores, testing automatizado con Pytest y transformando bases de datos relacionales en insights estructurados y accionables.",
+        "Plataforma de procesamiento de datos diseñada para transformar registros transaccionales de lectura en insights estratégicos. El proyecto implementa un pipeline de datos (ETL) robusto utilizando Python y Pandas para la limpieza, normalización y cálculo de métricas de comportamiento de usuario. Construido bajo una arquitectura de capas (Routes, Services, Data Access), el sistema está optimizado para la escalabilidad y el análisis de grandes volúmenes de información. Se prioriza la integridad del dato mediante validaciones avanzadas, testing automatizado con Pytest y una gestión de errores que garantiza resultados fiables y accionables para la toma de decisiones.",
       
       type: "Backend",
-      images: [lib_back01, lib_back02, lib_back03, lib_back04],
+      images: [lib_back01, lib_back02, lib_back03, lib_back04, lib_back05],
       techs: ["flask", "python", "pandas", "pytest", "postgresql"],
       github: "https://github.com/fredvmp/backend-library",
       demo: "",

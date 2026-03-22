@@ -14,8 +14,8 @@ const Hero: React.FC = () => {
 
         {/* Información personal */}
         <h1>Alfredo Tortuero</h1>
-        <h2>Desarrollador Full Stack</h2>
-        <p>Amante de las bases de datos y apasionado por crear soluciones simples y eficientes</p>
+        <h2>Data Analyst | Python & SQL Developer</h2>
+        <p>Especialista en transformar estructuras de datos complejas en información estratégica mediante SQL y Python (Pandas)</p>
 
         {/* Botones */}
         <div className={styles.buttonsContainer}>
