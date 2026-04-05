@@ -20,7 +20,6 @@ import vscodeIcon from "../../../src/assets/icons/vscode-original.svg";
 import jiraIcon from "../../../src/assets/icons/jira-original.svg";
 import javascriptIcon from "../../../src/assets/icons/javascript-original.svg";
 import nodejsIcon from "../../../src/assets/icons/nodejs-original.svg";
-import androidstudioIcon from "../../../src/assets/icons/androidstudio-original.svg";
 import kotlinIcon from "../../../src/assets/icons/kotlin-original.svg";
 import mavenIcon from "../../../src/assets/icons/maven-original.svg";
 import junitIcon from "../../../src/assets/icons/junit-original.svg";
