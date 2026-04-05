@@ -26,6 +26,8 @@ import mavenIcon from "../../../src/assets/icons/maven-original.svg";
 import junitIcon from "../../../src/assets/icons/junit-original.svg";
 import pytestIcon from "../../../src/assets/icons/pytest-original.svg";
 import pandasIcon from "../../../src/assets/icons/pandas-original.svg";
+import powerbiIcon from "../../assets/icons/powerbi-original.svg";
+
 
 import SkillCategory from "./SkillCategory";
 
@@ -67,18 +69,12 @@ const Skills: React.FC = () => {
       skills: [
         { name: "Pytest", icon: pytestIcon },
         { name: "JUnit", icon: junitIcon },
-
-
-
         { name: "Git", icon: gitIcon },
         { name: "GitHub", icon: githubIcon },
+        { name: "PowerBi", icon: powerbiIcon },
         { name: "Maven", icon: mavenIcon },
         { name: "VS Code", icon: vscodeIcon },
-        { name: "Android Studio", icon: androidstudioIcon },
         { name: "Jira", icon: jiraIcon },
-        
-        
-
       ],
     },
   ];

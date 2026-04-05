@@ -24,7 +24,7 @@ function Projects() {
       
       type: "Backend",
       images: [lib_back01, lib_back02, lib_back03, lib_back04, lib_back05],
-      techs: ["flask", "python", "pandas", "pytest", "postgresql"],
+      techs: ["flask", "python", "pandas", "pytest", "powerbi", "postgresql"],
       github: "https://github.com/fredvmp/backend-library",
       demo: "",
     },
