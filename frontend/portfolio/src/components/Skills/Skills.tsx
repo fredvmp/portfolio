@@ -26,7 +26,7 @@ import junitIcon from "../../../src/assets/icons/junit-original.svg";
 import pytestIcon from "../../../src/assets/icons/pytest-original.svg";
 import pandasIcon from "../../../src/assets/icons/pandas-original.svg";
 import powerbiIcon from "../../assets/icons/powerbi-original.svg";
-
+import postmanIcon from "../../assets/icons/postman-original.svg";
 
 import SkillCategory from "./SkillCategory";
 
@@ -47,11 +47,14 @@ const Skills: React.FC = () => {
         { name: "Python", icon: pythonIcon },
         { name: "Flask", icon: flaskIcon },
         { name: "Pandas", icon: pandasIcon },
-        { name: "Kotlin", icon: kotlinIcon },
+        { name: "Pytest", icon: pytestIcon },
+
         { name: "Java", icon: javaIcon },
         { name: "Spring", icon: springIcon },
+        { name: "JUnit", icon: junitIcon },
         { name: "JavaScript", icon: javascriptIcon },
         { name: "Node.js", icon: nodejsIcon },
+        { name: "Kotlin", icon: kotlinIcon },
       ],
     },
     {
@@ -66,11 +69,10 @@ const Skills: React.FC = () => {
     {
       title: "Herramientas",
       skills: [
-        { name: "Pytest", icon: pytestIcon },
-        { name: "JUnit", icon: junitIcon },
+        { name: "PowerBi", icon: powerbiIcon },
+        { name: "Postman", icon: postmanIcon },
         { name: "Git", icon: gitIcon },
         { name: "GitHub", icon: githubIcon },
-        { name: "PowerBi", icon: powerbiIcon },
         { name: "Maven", icon: mavenIcon },
         { name: "VS Code", icon: vscodeIcon },
         { name: "Jira", icon: jiraIcon },

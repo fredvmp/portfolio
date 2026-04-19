@@ -13,24 +13,41 @@ import lib_back02 from "../../assets/images/lib_back_02.png";
 import lib_back03 from "../../assets/images/lib_back_03.png";
 import lib_back04 from "../../assets/images/lib_back_04.png";
 import lib_back05 from "../../assets/images/lib_back_05.png";
+import olist01 from "../../assets/images/olist_01.png";
+import olist02 from "../../assets/images/olist_02.png";
+import olist03 from "../../assets/images/olist_03.png";
+import olist04 from "../../assets/images/olist_04.png";
+
+
 
 
 function Projects() {
   const projects = [
+    
+    {
+      title: "Olist-Analytics",
+      description:
+        "Plataforma analítica diseñada para transformar grandes volúmenes de datos transaccionales en inteligencia de negocio. El sistema implementa una arquitectura modular en Python (Routes-Services-Repository) que garantiza un procesamiento eficiente y desacoplado. Mediante un pipeline de limpieza y transformación con Pandas, el proyecto automatiza el cálculo de métricas críticas como RFM, Cohortes y Análisis ABC, asegurando la integridad del dato desde la ingesta en SQL hasta su visualización final. Una solución que combina el rigor del procesamiento de datos con la capacidad de generar insights operativos escalables y accionables en Power BI.",
+      type: "Backend",
+      images: [olist01, olist02, olist03, olist04],
+      techs: ["flask", "python", "pandas", "powerbi", "postgresql", "postman"],
+      github: "https://github.com/fredvmp/olist-analytics",
+      demo: "",
+    },
+
     {
       title: "Reader-Insights",
       description:
         "Plataforma de procesamiento de datos diseñada para transformar registros transaccionales de lectura en insights estratégicos. El proyecto implementa un pipeline de datos (ETL) robusto utilizando Python y Pandas para la limpieza, normalización y cálculo de métricas de comportamiento de usuario. Construido bajo una arquitectura de capas (Routes, Services, Data Access), el sistema está optimizado para la escalabilidad y el análisis de grandes volúmenes de información. Se prioriza la integridad del dato mediante validaciones avanzadas, testing automatizado con Pytest y una gestión de errores que garantiza resultados fiables y accionables para la toma de decisiones.",
-      
+
       type: "Backend",
       images: [lib_back01, lib_back02, lib_back03, lib_back04, lib_back05],
-      techs: ["flask", "python", "pandas", "pytest", "powerbi", "postgresql"],
+      techs: ["flask", "python", "pandas", "pytest", "powerbi", "postgresql", "postman"],
       github: "https://github.com/fredvmp/backend-library",
       demo: "",
     },
 
-
-      {
+    {
       title: "Hallowed Library",
       description:
         "Aplicación web Full Stack para la gestión y descubrimiento de libros, inspirada en Goodreads. Permite a los usuarios registrarse, valorar y reseñar lecturas, crear listas personalizadas y recibir recomendaciones. Implementa autenticación JWT y arquitectura REST.",
@@ -40,7 +57,6 @@ function Projects() {
       github: "https://github.com/fredvmp/hallowed-library",
       demo: "",
     },
-
 
     {
       title: "Ancient Chess",
@@ -60,7 +76,6 @@ function Projects() {
       <div className={styles.grid}>
         {projects.map((proj) => (
           <ProjectCard key={proj.title} {...proj} />
-          
         ))}
       </div>
     </section>

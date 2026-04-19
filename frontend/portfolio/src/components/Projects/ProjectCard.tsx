@@ -12,6 +12,8 @@ import pytestIcon from "../../assets/icons/pytest-original.svg";
 import flaskIcon from "../../assets/icons/flask-original.svg";
 import pandasIcon from "../../assets/icons/pandas-original.svg";
 import powerbiIcon from "../../assets/icons/powerbi-original.svg";
+import postmanIcon from "../../assets/icons/postman-original.svg";
+
 
 const techIcons: Record<string, string> = {
   react: reactIcon,
@@ -24,7 +26,8 @@ const techIcons: Record<string, string> = {
   pytest: pytestIcon,
   flask: flaskIcon,
   pandas: pandasIcon,
-  powerbi: powerbiIcon
+  powerbi: powerbiIcon,
+  postman: postmanIcon
 };
 
 interface ProjectProps {
