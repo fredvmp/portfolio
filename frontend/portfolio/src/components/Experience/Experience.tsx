@@ -4,14 +4,15 @@ import ExperienceCard from "./ExperienceCard";
 function Experience() {
   const experienceList = [
     {
-      role: "Desarrollador Full Stack",
+      role: "Python & Data Developer",
       company: "Servinnova",
-      period: "Mar 2024 – Jun 2024",
+      period: "Mar 2024 – Ago 2025",
       tasks: [
-        "Desarrollo de módulos web tanto en frontend como en backend, utilizando principalmente Python y JavaScript.",
-        "Mejoras de rendimiento y refactorización de código para facilitar el mantenimiento.",
-        "Documentación técnica de los proyectos.",
-        "Traducción de aplicaciones a otros idiomas.",
+        "Desarrollo de lógica de servidor y APIs utilizando Python, asegurando una comunicación fluida entre el frontend y la base de datos.",
+        "Optimización y creación de consultas SQL complejas mediante el uso de CTEs y window functions, reduciendo los tiempos de respuesta.",
+        "Diseño e implementación de pipelines de procesamiento de datos con Pandas y NumPy para la limpieza, normalización y transformación de grandes volúmenes de información.",
+        "Revisión y optimización de aplicaciones ya en funcionamiento para que fueran más rápidas y fáciles de ampliar en el futuro.",
+        "Colaboración en la arquitectura de datos para Business Intelligence, garantizando la integridad de la información para su posterior visualización en herramientas como Power BI.",
       ],
     },
     {
